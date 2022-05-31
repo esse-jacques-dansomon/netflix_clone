@@ -13,7 +13,6 @@ class MovieCard extends StatelessWidget {
       imageUrl: movie.posterUrl(),
       fit: BoxFit.cover,
       errorWidget: (context, url, error)=> const Icon(Icons.error),
-
     );
   }
 }

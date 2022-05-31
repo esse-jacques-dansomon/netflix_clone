@@ -46,7 +46,7 @@ class _LoadingScreenState extends State<LoadingScreen> {
           const SpinKitCircle(
             size: 38,
             color: Colors.red,
-            duration: Duration(seconds: 4),
+            duration: Duration(seconds: 2),
           ),
         ],
       ),
